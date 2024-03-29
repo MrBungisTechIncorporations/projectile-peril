@@ -35,7 +35,7 @@ def draw(player, elapsed_time, stars):
     pygame.draw.rect(WIN, "red", player)
 
     for star in stars:
-        pygame.draw.rect(WIN, "white", star)
+        pygame.draw.rect(WIN, "yellow", star)
 
     pygame.display.update()
 
