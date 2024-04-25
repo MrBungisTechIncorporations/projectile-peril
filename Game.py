@@ -145,7 +145,7 @@ def main():
                         is_paused = False
                         start_time = time.time() - elapsed_time
 
-            # Check for 'P' key press to pause/resume the game
+            
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_p:
                     is_paused = not is_paused and is_alive  # Only pause if the player is alive
